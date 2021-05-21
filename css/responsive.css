@@ -1,0 +1,151 @@
+/* Default Layout	*/
+
+
+/*	Extra small devices (portrait phones, less than 576px)	*/
+@media (max-width: 575.98px) {
+	
+	.middle_content .image_texts{
+		-ms-grid-columns: auto;
+		grid-template-columns: auto;
+		margin-bottom: 30px;
+	}
+	.reviews{
+		-ms-grid-columns: auto;
+		grid-template-columns: auto;
+	}
+	.header .bottom{
+		-ms-grid-columns: auto;
+		grid-template-columns: auto;
+	}
+	.header .bottom .contact ul {
+		text-align: center;
+	}
+	.header .bottom .contact ul li a{
+		font-size: 14px;
+	}
+	.header .bottom .contact ul li:first-child{
+		margin-left: 0px;
+	}
+	
+	.header .top p{
+		font-size: 14px;
+	}
+	.banner h3{
+		font-size: 22px;
+	}
+	.middle_content .image_texts .right_texts h3{
+		font-size: 22px;
+	}
+	.middle_content .image_texts .right_texts ul li{
+		font-size: 16px;
+		padding-left: 25px;
+	}
+	.middle_content .image_texts .right_texts ul li::before {
+		font: 21px FontAwesome;
+	}
+	
+	.middle_content .image_texts .right_texts .clickable_link a{
+		display: block;
+		padding: 7.5px 15px;
+		font-size: 18px;
+		text-align: center;
+	}
+	
+	.reviews_wrap h3{
+		font-size: 22px;
+	}
+	
+	.footer p{
+		font-size: 14px;
+	}
+	
+}
+
+/*	Small devices (landscape phones, 576px and up)	*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	.container{
+		max-width:540px;
+	}
+	
+	.middle_content .image_texts{
+		-ms-grid-columns: auto;
+		grid-template-columns: auto;
+	}
+	.reviews{
+		-ms-grid-columns: auto;
+		grid-template-columns: auto;
+	}
+	
+	.header .top p{
+		font-size: 14px;
+	}
+	
+}
+
+/*	Medium devices (tablets, 768px and up)	*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	.container{
+		max-width:720px;
+	}
+	
+	.banner h3{
+		font-size: 28px;
+	}
+	.middle_content .image_texts .right_texts h3{
+		font-size: 24px;
+	}
+	.middle_content .image_texts .right_texts ul {
+		margin: 5px 0px;
+	}
+	.middle_content .image_texts .right_texts ul li{
+		font-size: 16px;
+		margin: 7.5px 0px;
+		padding-left: 25px;
+	}
+	.middle_content .image_texts .right_texts ul li:before{
+		font: 20px FontAwesome;
+		top: 2px;
+	}
+	.middle_content .image_texts .right_texts .clickable_link a{
+		padding: 7.5px 25px;
+		font-size: 16px;
+	}
+	
+	.reviews_wrap h3{
+		font-size: 24px;
+	}
+	.reviews .single_review p{
+		font-size: 14px;
+	}
+	.reviews .single_review h6{
+		font-size: 16px;
+	}
+	
+	.footer p{
+		font-size: 14px;
+	}
+	
+}
+
+/*	Large devices (desktops, 992px and up)	*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+	.container{
+		max-width:960px;
+	}
+	.banner h3{
+		font-size: 28px;
+	}
+	
+}
+
+/*	Extra large devices (large desktops, 1200px and up)	*/
+@media (min-width: 1200px) {
+	
+	.container{
+		max-width:1140px;
+	}
+	
+}

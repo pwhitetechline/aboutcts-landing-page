@@ -1,0 +1,321 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#FFFFFF;
+}
+
+/* ========== Custom CSS Starts ========== */
+
+/* ===== CSS For "Header" Starts Here ===== */
+.header{
+	
+}
+
+.header .bottom{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 15px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 15px;
+	padding: 10px 0px;
+}
+.header .bottom .logo{
+	
+}
+.header .bottom .logo img{
+	max-width: 260px;
+}
+.header .bottom .contact{
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-line-pack: center;
+	align-content: center;
+}
+.header .bottom .contact ul{
+	margin-bottom: 0px;
+	text-align: right;
+}
+.header .bottom .contact ul li{
+	list-style: none;
+	margin-left: 15px;
+	display: inline-block;
+}
+.header .bottom .contact ul li a{
+	color: #232323;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.header .bottom .contact ul li a:hover{
+	color: #169DBF;
+}
+.header .bottom .contact ul li i{
+	color: #169DBF;
+	background: rgba(22, 157, 191, 0.2);
+	font-size: 16px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	text-align: center;
+}
+/* ===== CSS For "Header" Ends Here ===== */
+
+
+/* ===== CSS For "Banner" Starts Here ===== */
+.banner{
+	background: #169DBF;
+	padding: 15px 0px;
+}
+.banner h1{
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 0px;
+	text-align: center;
+	text-shadow: 0px 0px 5px #000000;
+}
+/* ===== CSS For "Banner" Ends Here ===== */
+
+
+/* ===== CSS For "Middle Part" Starts Here ===== */
+.middle_content{
+	background: #F8F8F8;
+	box-shadow: 0px 0px 15px rgba(0,0,0, 0.2);
+	padding: 20px;
+}
+.middle_content .image_texts{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 30px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 30px;
+	max-width: 860px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+.middle_content .image_texts .left_image{
+	text-align: center;
+}
+.middle_content .image_texts .left_image img{
+	width: 100%;
+}
+.middle_content .image_texts .right_texts{
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-line-pack: center;
+	align-content: center;
+	margin-left: auto;	
+}
+.middle_content .image_texts .right_texts h3{
+	color: #169DBF;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+.middle_content .image_texts .right_texts ul{
+	margin: 15px 0px;
+}
+.middle_content .image_texts .right_texts ul li{
+	list-style: none;
+	color: #232323;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 10px 0px;
+	position: relative;
+	padding-left: 30px;
+}
+.middle_content .image_texts .right_texts ul li:before{
+	content:"\f058";
+	font: 24px FontAwesome;
+	color: #169DBF;
+	position: absolute;
+	left: 0px;
+	top: 1px;
+}
+.middle_content .clickable_link{
+
+}
+.middle_content .clickable_link a{
+	color: #FFFFFF;
+	background: #169DBF;
+	display: inline-block;
+	padding: 10px 30px;
+	text-decoration: none;
+	width: 300px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	border-radius: 5px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.middle_content .image_texts .right_texts .clickable_link a:hover{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.description{
+	background: #EAEAEA;
+	margin: 0px -20px;
+	padding: 20px;
+}
+.description .clickable_link{
+	text-align: center;
+}
+.description h3{
+	color: #333333;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.description p{
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 15px;	
+}
+.description p:last-child{
+	margin-bottom: 0px;
+}
+.description h5{
+	color: #333333;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 5px;	
+}
+.description ul{
+	margin-bottom: 15px;
+}
+.description ul li{
+	list-style: none;
+	color: #333333;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+	position: relative;
+	padding-left: 30px;
+}
+.description ul li:last-child{
+	margin-bottom: 0px;
+}
+.description ul li:before{
+	content:"\f00c";
+	font: 20px FontAwesome;
+	color: #169DBF;
+	position: absolute;
+	left: 0px;
+	top: 1.5px;
+}
+
+.reviews_wrap{
+	padding: 10px 0px;
+	padding-top: 30px;
+}
+.reviews_wrap .clickable_link{
+	text-align: center;
+	margin-top: 30px;
+}
+.reviews_wrap h3{
+	color: #232323;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.reviews{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 25px 1fr 25px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 25px;
+}
+.reviews .single_review{
+	border: 1px solid #DADCE0;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0,0,0, 0.2);
+	text-align: center;
+}
+.reviews .single_review .icon{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.reviews .single_review .icon i{
+	color: #169DBF;
+	background: rgba(22, 157, 191, 0.2);
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 50%;
+}
+.reviews .single_review p{
+	color: #232323;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.reviews .single_review h6{
+	color: #169DBF;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+/* ===== CSS For "Middle Part" Ends Here ===== */
+
+
+/* ===== CSS For "Footer" Starts Here ===== */
+.footer{
+	background: #171717;
+	padding: 10px 0px;
+}
+.footer p{
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+/* ===== CSS For "Footer" Ends Here ===== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
